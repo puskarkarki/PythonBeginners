@@ -23,3 +23,26 @@ def sum():
     return c
 
 print("The sum of a and b is", sum())
+
+''' EXAMPLE 3'''
+
+def sum_num(a, b):
+
+    sum = a + b
+
+    return sum
+print("The sum of  a and b is", sum_num(12, 20))
+
+'''A simple python function to check whether x is even or odd '''
+
+def evenOdd(x):
+
+    if (x%2 ==0):
+        print('This is an even number ')
+
+    else:
+        print('This is an odd number')
+
+evenOdd(2)
+evenOdd(89)
+
