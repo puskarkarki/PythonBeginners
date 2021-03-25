@@ -46,3 +46,11 @@ def say_hello(name):
 print(say_hello.__doc__)
 say_hello('Prajwol')
 
+'''example 4'''
+'''Single line doc-string for a function'''
+
+def multilinestring(a,b):
+
+    ''' This is a single line string '''
+
+print(multilinestring.__doc__)
